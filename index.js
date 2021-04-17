@@ -2,7 +2,7 @@ const http = require('http');
 const ytdl = require('ytdl-core');
 const got = require('got');
 
-const port = process.env.HTTP_PORT;
+const port = process.env.PORT;
 const channelId = process.env.YT_CHANNEL_ID;
 const key = process.env.YT_KEY;
 
