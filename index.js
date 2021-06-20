@@ -27,6 +27,7 @@ http.createServer(async (req, res) => {
 
     res.end();
   } catch (e) {
+    console.log(e);
     res.statusCode = 500;
     res.end();
   }
